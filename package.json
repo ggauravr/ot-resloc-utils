@@ -1,0 +1,29 @@
+{
+  "name": "ot-resloc-utils",
+  "version": "1.0.0",
+  "description": "Set of scripts and libraries to help work with resloc",
+  "main": "index.js",
+  "scripts": {
+    "create-nlurls": "node ./scripts/create-nlurls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opentable/ot-resloc-utils.git"
+  },
+  "keywords": [
+    "resloc",
+    "resource-locator",
+    "resource",
+    "locator"
+  ],
+  "author": "gramesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/opentable/ot-resloc-utils/issues"
+  },
+  "homepage": "https://github.com/opentable/ot-resloc-utils#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "ot-discovery": "^2.0.0"
+  }
+}
